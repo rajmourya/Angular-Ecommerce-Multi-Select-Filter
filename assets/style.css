@@ -1,0 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+*{
+  box-sizing: border-box;
+}
+html{position: relative; min-height: 100%;}
+body {font-size: 14px;margin-bottom: 0px;min-height: 100%; background: #eeeeee; 
+   font-family: 'Roboto', sans-serif;  color: #333333;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {  font-weight: 400;font-family: 'Oswald', sans-serif; margin-top: 0px;}
+h1 {  font-size: 24px;}
+h2 {  font-size: 21px;}
+h3 {  font-size: 18px;}
+h4 {  font-size: 16px;}
+h5 {  font-size: 14px;}
+.float-left { float: left !important;}
+p{margin: 0 0 8px;}
+.navbar {background:#08467c; border-radius: 0;  position: relative;  min-height: 50px;  margin-bottom: 20px;  border: 1px solid transparent;}
+a.navbar-brand {  float: left;  height: 50px;  padding: 5px 15px;  line-height: 20px;}
+a.navbar-brand img{height: 40px;}
+.form-control{margin-right: 15px; border-radius: 0;}
+.btn{border-radius: 0;}
+.productListPanel{margin:0;padding:0 0 30px;} 
+.filterPanel{padding: 15px;  background: #fff;  margin: 5px;}  
+.productListPanel .productList{ margin:.3% .5% ;width:24%; display: inline-block;padding:0; background: #ffffff;   -ms-transition: all .5s ease;    -o-transition: all .5s ease;    transition: all .5s ease;   } 
+.productListPanel .productList:hover{box-shadow: 0 0 30px #aaaaaa;} 
+.productListPanel .productList h5{margin: 0;color:#333333;padding: 15px;text-transform: capitalize;  border-bottom: 1px solid #eee; }
+.productListPanel .productList:hover h5{color:#337ab7; } 
+.productListPanel .productList .listContent{width:100%;padding:0 15px; position: relative;}
+.productListPanel .productList .listContent .listContentServiceImage{width:100%; float: left; padding: 15px 0 0;}
+.productListPanel .productList .listContent .listContentServiceImage img{width: 100%;}
+.productListPanel .productList .listContent .listContentServiceDetail{ padding: 10px 0 20px; float: left; width: 100%;}
+.productListPanel .productList .listContent .listContentServiceDetail p{color: #666666; margin-bottom: 5px;}
+.productListPanel .productList .listContent .rating {color: #FFCC33;font-size:12px; position: absolute; top:10px; right:15px;}
+.productListPanel .productList .listContent .listContentServiceDetail p i.disable{color: #999999;}
+.productListPanel .productList .listContent .listContentServiceDetail p .oldPrice { text-decoration:line-through;padding: 0 6px 0 0; color: #999999;}
+.productListPanel .productList .listContent .listContentServiceDetail p .newPrice {padding: 0 6px 0 0; color:#33cc33; }
+.productListPanel .productList .listContent .listContentServiceDetail p .discount {color: #337ab7;padding: 0; }
+.productListPanel .productList .listContent .listContentServiceDetail p span {text-transform: capitalize; font-size: 13px; }
+.propWidth{width: 45px; float: left; color: #333333; font-weight: bold;}
+
+.main-footer{
+  width: 240px;
+  background: #111111;
+  color: #999999;
+  padding: 10px 10px 0;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0; right: 0;
+  border-radius: 3px 0 0 0;
+}
